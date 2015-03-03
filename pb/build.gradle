@@ -1,7 +1,7 @@
 apply plugin: 'protobuf'
 
-if (file('/usr/local/Cellar/protobuf/2.6.0/bin/protoc').exists()) {
-	protobuf.compiler = '/usr/local/Cellar/protobuf/2.6.0/bin/protoc'
+if (file('/usr/local/Cellar/protobuf/2.6.1/bin/protoc').exists()) {
+	protobuf.compiler = '/usr/local/Cellar/protobuf/2.6.1/bin/protoc'
 }
 
 buildscript {
